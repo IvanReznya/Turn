@@ -12,7 +12,6 @@ cmake --build build --config Debug
 ctest --test-dir build -C Debug --output-on-failure
 ```
 
-Для проверки только алгоритмов можно собрать отдельный каталог с параметром `-DBUILD_GUI=OFF`.
 
 ## Управление
 
